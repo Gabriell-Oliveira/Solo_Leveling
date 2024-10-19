@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: url('solo-leveling-manga-anime-digital-drew-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: black;
+    padding: 20px;
+    width: 70%;
+    color: #f4f4f4;
+}
+
+aside {
+    background-color: black;
+    padding: 20px;
+    width: 30%;
+    margin-left: 20px;
+    color: #f4f4f4;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: rgb(247, 235, 190);
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    color: #FFD700;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+button {
+   
+    padding: 15px; 
+    background-color: rgb(113, 43, 226); 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #8a36c2; 
+}
